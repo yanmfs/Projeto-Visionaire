@@ -255,7 +255,7 @@ footer{
 @media (max-width: 1100px){
 
     .plans-container{
-        /* width: 95%; */
+        width: 95%; 
     }
     
     .plan{
@@ -275,19 +275,32 @@ footer{
     }
 }
 
-/* celular 576px */
+/* celular 425px */
 
-@media (max-width: 576px){
+@media (max-width: 425px){
 
-    
+    .navbar-items li{
+        font-size: 9px;
+        margin-left: 10px;
+    }
     html, body{
         overflow-x: hidden;
     }
 
-    .navbar-items li{
-        font-size: 12px;
-        margin-left: 10px;
-    }
+    .main-banner {
+        background-size:1100px;
+        background-position: 48% center;    
+        }
+
+        .main-banner p{
+          font-size: 20px;  background-size:1100px;
+            background-position: 48% center;    
+            }
+
+  .logo{
+    margin-top: -5px;
+    margin-left: -30px;
+  }
 
 
     .main-banner p{
@@ -314,9 +327,14 @@ footer{
         font-size: 28px;
     }
 
-    .convite-container input[type="text"]{
-        width: 100%;
+    .convite-container p{
+        font-size: 15px;
     }
+    
+    .convite-container input[type="email"]{
+        text-align: center;
+        font-size: 14px;
+        width: 100%;    }
     
     .contact-container{
         padding: 3rem 2rem;
@@ -333,12 +351,18 @@ footer{
 
 @media (max-width: 375px){
     .navbar-items li{
-        font-size: 10px;
-        margin-left: 10px;
+        font-size:8px;
+        margin-left: 1px;
     }
 
-    .convite-container input[type="text"]{
-        font-size: 17px;
+    .main-banner {
+        background-size:900px;
+        background-position: 46% center;    
+        }
+
+
+    .convite-container input[type="email"]{
+        font-size: 11px;
         text-align: center;
     }
     .convite-container p{
@@ -352,20 +376,30 @@ footer{
 /* celular 320px */
 
 @media (max-width: 320px){
-    .navbar-items li{
-        font-size: 8px;
-        margin-left: 4px;
+
+    .logo{
+        margin-left: -40px;
+        margin-top: 20px;
+        width: 100px;
+        height: auto;
     }
 
-   .main-banner h1{
-    font-size: 45px;
-   }
+
+    .navbar-items li{
+        font-size: 8    px;
+        margin-left: 6px;
+        margin-right: -5px;
+    }
+    .main-banner{
+        background-size: 700px;
+    }
+
    .main-banner p{
-    font-size: 25px;
+    font-size: 20px;
    }
 
-   .convite-container input[type="text"]{
-    font-size: 13px;
+   .convite-container input[type="email"]{
+    font-size: 8px;
    }
    
 }
